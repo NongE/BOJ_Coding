@@ -22,7 +22,7 @@ class Node implements Comparable<Node> {
 
     @Override
     public int compareTo(Node other) {
-        if (this.index < other.index) {
+        if (this.dist < other.dist) {
             return -1;
         } else {
             return 1;
